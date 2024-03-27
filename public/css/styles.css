@@ -1,0 +1,231 @@
+body {
+  padding-bottom: 20px;
+  background-color: #FFFCD1;
+}
+.right-button {
+    float: right;
+}
+h1 {
+	text-align: center;
+}
+@media (min-width: 768px) {
+  .sidebar .offcanvas-lg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 48px;
+  }
+  .navbar-search {
+    display: block;
+  }
+}
+button {
+	right: auto;
+}
+
+
+
+/* la table */
+table {
+	width: 100%;
+	border-collapse: separate;
+	margin-bottom: 20px;
+	overflow-x: auto;
+}
+th, tr, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+
+
+/* blog */
+.blog-header-logo {
+  font-size: 2.25rem;
+}
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+
+
+/* titre (index) */
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+.text-small {
+  font-size: 85%;
+}
+.dropdown-toggle:not(:focus) {
+  outline: 0;
+}
+.logo-container {
+    left: 20px; /* Distance par rapport à la droite de la fenêtre */
+    width: 100px; /* Largeur du conteneur */
+    height: 70px; /* Hauteur du conteneur */
+}
+.logo-image {
+    width: 100%; /* La largeur de l'image occupera 100% de la largeur du conteneur */
+    height: 100%; /* La hauteur de l'image occupera 100% de la hauteur du conteneur */
+    object-fit: contain; /* Conserver les proportions de l'image tout en remplissant le conteneur */
+}
+
+
+
+/*login*/
+.input img {
+	height: 20px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+#container{
+ width:400px;
+ margin:0 auto;
+ margin-top:10%;
+}
+form {
+ width:100%;
+ padding: 30px;
+ border: 1px solid #f1f1f1;
+ background: #fff;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+ width: 38%;
+ margin: 0 auto;
+ padding-bottom: 10px;
+}
+input[type=text], input[type=password]{
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+input[type=submit] {
+ background-color: #53af57;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+input[type=submit]:hover {
+ background-color: white;
+ color: #53af57;
+ border: 1px solid #53af57;
+}
+
+/* footer */
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+@media ( min-width : 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+}
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 2.75rem;
+	overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+	--bd-violet-bg: #712cf9;
+	--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+	--bs-btn-font-weight: 600;
+	--bs-btn-color: var(--bs-white);
+	--bs-btn-bg: var(--bd-violet-bg);
+	--bs-btn-border-color: var(--bd-violet-bg);
+	--bs-btn-hover-color: var(--bs-white);
+	--bs-btn-hover-bg: #6528e0;
+	--bs-btn-hover-border-color: #6528e0;
+	--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+	--bs-btn-active-color: var(--bs-btn-hover-color);
+	--bs-btn-active-bg: #5a23c8;
+	--bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+	z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+	display: block !important;
+}
+
+/*new user*/
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0 5px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* popup*/
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.popup-content {
+    background-color: white;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
