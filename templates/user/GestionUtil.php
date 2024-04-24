@@ -27,7 +27,7 @@
 			<div class="row flex-nowrap justify-content-between align-items-center">
 				<div class="col-3">
 					<a href="../../index.php"><img class="logo-container"
-						src="../../public/images/polylogo.jpeg" alt="logo Polynésie 1ère"></a>
+                                                   src="../../public/images/polylogo.jpeg" alt="logo Polynésie 1ère"></a>
 				</div>
 				<div class="col-6 text-center">
 					<a class="blog-header-logo text-body-emphasis text-decoration-none"

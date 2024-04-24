@@ -1,10 +1,6 @@
 <?php
 // Connexion à la base de données
-$connexion = new mysqli("localhost", "root", "", "gestionstock");
-
-if ($connexion->connect_error) {
-    die("La connexion à la base de données a échoué : " . $connexion->connect_error);
-}
+require '../../config/db.php';
 
 $message = '';
 
